@@ -144,6 +144,7 @@ A Magisk module installer is a Magisk module packaged in a zip file that can be 
 
 - `update-binary`: Download the latest [module_installer.sh](https://github.com/topjohnwu/Magisk/blob/master/scripts/module_installer.sh) and rename/copy that script as `update-binary`
 - `updater-script`: This file should only contain the string `#MAGISK`
+![Screenshot_20250410-211513](https://github.com/user-attachments/assets/4dfc1698-898c-47d5-92fd-ed2c42e23870)
 
 The module installer script will setup the environment, extract the module files from the zip file to the correct location, then finalizes the installation process, which should be good enough for most simple Magisk modules.
 
